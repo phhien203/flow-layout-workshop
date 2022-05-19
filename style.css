@@ -1,10 +1,49 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 html,
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.intro-chunk {
+  max-width: 450px;
+  padding: 96px 0;
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.intro-chunk .title {
+    font-size: 2rem;
+    margin-bottom: 32px;
 }
