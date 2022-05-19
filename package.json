@@ -1,0 +1,16 @@
+{
+  "name": "flow-layout-workshop",
+  "version": "1.0.0",
+  "description": "This is the first workshop of css-for-js course",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=9000 --host=localhost .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^2.6.2"
+  }
+}
